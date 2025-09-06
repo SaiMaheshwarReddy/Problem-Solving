@@ -1,9 +1,7 @@
+import { run } from "./Algorithms/index.js";
+import { DS } from "./DataStructures/index.js";
 
-import SaiMaheshwar from "./Algorithms/SaiMaheshwar/index.js"
-import { DS } from "./DataStructures/index.js"
-
-
-(function() {
-    SaiMaheshwar()
-    DS()
-})()
+(function () {
+  DS();
+  run();
+})();

@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SaiMaheshwarReddy/Problem-Solving/issues"
   },
-  "homepage": "https://github.com/SaiMaheshwarReddy/Problem-Solving#readme"
+  "homepage": "https://github.com/SaiMaheshwarReddy/Problem-Solving#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
